@@ -32,6 +32,8 @@
             android:name=".SecondActivity"
             android:exported="true" />
         <activity android:name=".ThreeActivity" />
+        <activity android:name=".FourActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>

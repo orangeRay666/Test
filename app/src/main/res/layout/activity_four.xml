@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/body2"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="430dp"
+            android:layout_height="600dp">
+
+            <RelativeLayout
+                android:layout_width="215dp"
+                android:layout_height="600dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:scaleType="matrix"
+                        android:id="@+id/face_left"
+                        android:layout_width="1200dp"
+                        android:layout_height="1200dp"
+                        android:src="@mipmap/hzw"/>
+                </LinearLayout>
+                <TextView
+                    android:textColor="@color/white"
+                    android:text="2022-6-24  痤疮"
+                    android:textSize="20dp"
+                    android:background="#AA000000"
+                    android:gravity="center"
+                    android:layout_width="215dp"
+                    android:layout_height="60dp"/>
+                <Button
+                    android:id="@+id/a"
+                    android:text="aaaaa"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="60dp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <View
+                android:background="@color/white"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"/>
+            <RelativeLayout
+                android:layout_width="215dp"
+                android:layout_height="600dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/face_right"
+                        android:layout_width="600dp"
+                        android:layout_height="600dp"
+                        android:src="@mipmap/hzw">
+                    </ImageView>
+                </LinearLayout>
+                <TextView
+                    android:text="2022-6-24  痤疮"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:background="#AA000000"
+                    android:gravity="center"
+                    android:layout_width="215dp"
+                    android:layout_height="60dp"/>
+                <Button
+                    android:text="aaaaa"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="60dp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/kkk3"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/kkkk"
+            android:layout_width="680dp"
+            android:layout_height="830dp"/>
+
+        <SeekBar
+            android:id="@+id/sb_normal"
+            android:layout_width="400dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="260dp"/>
+
+
+    </FrameLayout>
+</RelativeLayout>
