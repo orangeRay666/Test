@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/body2"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/face2"
+            android:layout_gravity="center"
+            android:src="@mipmap/hzw"
+            android:layout_width="430dp"
+            android:layout_height="600dp">
+        </ImageView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/date_title2"
+                android:layout_width="450dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="55dp"
+                android:background="#AA000000"
+                android:gravity="center"
+                android:text="2022/6/23   座疮"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="70dp"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:onClick="click"
+                    android:id="@+id/changebtn2"
+                    android:text="aaa"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:text="aaa"
+                    android:id="@+id/changebtn3"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_toRightOf="@+id/date_title2"
+                android:layout_marginLeft="10dp"
+                android:layout_width="30dp"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:text="1"
+                        android:layout_marginTop="60dp"
+                        android:id="@+id/button01"
+                        android:background="@drawable/btn_circle"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <Button
+                        android:text="2"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/button02"
+                        android:layout_below="@+id/button01"
+                        android:background="@drawable/btn_circle"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <Button
+                        android:text="3"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/button03"
+                        android:layout_below="@+id/button02"
+                        android:background="@drawable/btn_circle"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <Button
+                        android:text="4"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/button04"
+                        android:layout_below="@+id/button03"
+                        android:background="@drawable/btn_circle"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <Button
+                        android:text="5"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/button05"
+                        android:layout_below="@+id/button04"
+                        android:background="@drawable/btn_circle"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <ImageView
+
+            android:id="@+id/kkk2"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/kkkk"
+            android:layout_width="680dp"
+            android:layout_height="830dp"/>
+
+    </FrameLayout>
+</RelativeLayout>
